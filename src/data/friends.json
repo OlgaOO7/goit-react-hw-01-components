@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://cdn.icon-icons.com/icons2/1465/PNG/512/203manwithchinesecap2_100559.png",
+    "name": "Harry",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://cdn.icon-icons.com/icons2/35/PNG/512/Queenpersonavatar_reina_person_2828.png",
+    "name": "Queen Elizabeth",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://cdn.icon-icons.com/icons2/1647/PNG/512/10177oldwomanlightskintone_109920.png",
+    "name": "Mrs Wicket",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://cdn.icon-icons.com/icons2/1446/PNG/512/22259bearface_98743.png",
+    "name": "Teddy",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://cdn.icon-icons.com/icons2/2630/PNG/512/avatar_girl_woman_glasses_blonde_hair_icon_159132.png",
+    "name": "Irma Gobb",
+    "isOnline": false,
+    "id": 1284
+  }
+]
