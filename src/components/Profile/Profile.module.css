@@ -22,6 +22,10 @@
   border-radius: 50%;
 }
 
+.avatar:hover {
+  transform: scale(1.08);
+}
+
 .name {
   margin-top: 0px;
   margin-bottom: 25px;

@@ -8,6 +8,10 @@
   box-shadow: 5px 5px 5px #493023;
 }
 
+.friendItem:hover {
+  transform: scale(1.08);
+}
+
 .friendItem:not(:last-child) {
   margin-bottom: 10px;
 }
