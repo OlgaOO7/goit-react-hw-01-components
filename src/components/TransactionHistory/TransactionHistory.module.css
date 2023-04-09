@@ -26,6 +26,10 @@
   line-height: 18px;
 }
 
+.tableData:hover {
+  transform: scale(1.08);
+}
+
 .tableData:nth-child(2n) {
   color: #f5d8c0;
   background-color: #94775d;
