@@ -20,6 +20,7 @@
 .avatar {
   margin-bottom: 25px;
   border-radius: 50%;
+  background-image: #f2caaa;
 }
 
 .avatar:hover {
