@@ -9,7 +9,11 @@ export const Statistics = ({title, stats}) => {
     <ul className={css.statList}>
       {stats.map(({id, label, percentage}) => {
         return (
-            <li className={css.statListItem} key={id}>
+            <li className={css.statListItem} key={id} style={{
+              backgroundColor: `#${Math.floor(
+                Math.random() * 16777215
+              ).toString(16)}`,
+            }}>
               <span className={css.label}>{label}</span>
               <span className={css.percentage}>{percentage}%</span>
             </li>
@@ -21,7 +25,7 @@ export const Statistics = ({title, stats}) => {
 }
 
 Statistics.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({ 
       id: PropTypes.string.isRequired,
